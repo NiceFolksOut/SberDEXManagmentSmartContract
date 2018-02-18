@@ -1,0 +1,21 @@
+{
+	"name": "wealth-manager-contracts",
+	"version": "0.0.1.",
+	"description": "Wealth managment contract for Skolkovo hackaton",
+	"author": "Nice Folks Out",
+	"license": "Apache License 2.0",
+	"private": true,
+	"engines": {
+		"yarn": "^1.2.1"
+	},
+	"dependencies": {
+		"bignumber.js": "^6.0.0",
+		"ganache-cli": "^6.0.3",
+		"truffle": "^4.0.6"
+	},
+	"scripts": {
+		"test": "./serve/run_tests.sh",
+		"test-fast": "./serve/run_tests_fast.sh",
+		"compile": "yarn truffle compile"
+	}
+}
